@@ -1,4 +1,5 @@
 import './globals.css';
+import { Font } from './Font';
 import { PropsWithChildren } from 'react';
 
 export const metadata = {
@@ -11,7 +12,9 @@ export const metadata = {
 export default function RootLayout({ children }: PropsWithChildren) {
   return (
     <html lang='en'>
-      <body>{children}</body>
+      <body>
+        <Font>{children}</Font>
+      </body>
     </html>
   );
 }
