@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hero Snapshot Tests should match the snapshot 1`] = `
+<div>
+  <section>
+    <h1
+      class="text-3xl"
+    >
+      Home
+    </h1>
+  </section>
+</div>
+`;

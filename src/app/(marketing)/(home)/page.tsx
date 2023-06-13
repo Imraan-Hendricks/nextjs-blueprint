@@ -1,4 +1,4 @@
-import { Hero } from './Hero';
+import { Hero } from './hero/Hero';
 
 export const metadata = {
   title: 'Next.js Blueprint | Home',
