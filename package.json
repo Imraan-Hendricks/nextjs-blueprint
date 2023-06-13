@@ -1,7 +1,30 @@
 {
   "name": "nextjs-blueprint",
   "version": "0.1.0",
+  "author": {
+    "name": "Imraan-Hendricks",
+    "email": "support@imraanhendricks.com"
+  },
+  "description": "Next.js Blueprint is a foundational project template for rapidly developing web applications using Next.js and TypeScript.",
   "private": true,
+  "license": "MIT",
+  "homepage": "https://github.com/Imraan-Hendricks/nextjs-blueprint#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Imraan-Hendricks/nextjs-blueprint"
+  },
+  "bugs": {
+    "url": "https://github.com/Imraan-Hendricks/nextjs-blueprint/issues"
+  },
+  "keywords": [
+    "next.js",
+    "blueprint",
+    "web application",
+    "boilerplate",
+    "template",
+    "typescript",
+    "react"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
