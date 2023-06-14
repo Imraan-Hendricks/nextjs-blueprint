@@ -1,5 +1,6 @@
 import '../src/app/globals.css';
 import type { Preview } from '@storybook/react';
+import { viewports } from './viewports';
 import { withThemeByDataAttribute } from '@storybook/addon-styling';
 
 const preview: Preview = {
@@ -11,6 +12,7 @@ const preview: Preview = {
         date: /Date$/,
       },
     },
+    viewport: { viewports },
   },
 };
 
