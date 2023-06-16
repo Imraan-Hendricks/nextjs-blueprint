@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavItem Snapshot Tests renders correctly with active prop 1`] = `
+<div>
+  <li
+    class="w-max cursor-pointer rounded px-4 py-2 transition-colors hover:bg-indigo-500 hover:text-white active:bg-indigo-400 text-indigo-600"
+  >
+    <a
+      href="/some-link"
+    >
+      My Link
+    </a>
+  </li>
+</div>
+`;
+
+exports[`NavItem Snapshot Tests renders correctly without active prop 1`] = `
+<div>
+  <li
+    class="w-max cursor-pointer rounded px-4 py-2 transition-colors hover:bg-indigo-500 hover:text-white active:bg-indigo-400 text-gray-500"
+  >
+    <a
+      href="/some-link"
+    >
+      My Link
+    </a>
+  </li>
+</div>
+`;
