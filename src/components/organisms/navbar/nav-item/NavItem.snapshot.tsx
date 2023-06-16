@@ -2,6 +2,10 @@ import { cleanup, render } from '@testing-library/react';
 import { NavItem } from './NavItem';
 
 describe('NavItem Snapshot Tests', () => {
+  beforeAll(() => {
+    cleanup();
+  });
+
   afterEach(() => {
     cleanup();
   });

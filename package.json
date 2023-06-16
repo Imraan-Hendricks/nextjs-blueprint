@@ -70,6 +70,7 @@
     "jest": "^29.5.0",
     "jest-environment-jsdom": "^29.5.0",
     "prettier-plugin-tailwindcss": "^0.3.0",
+    "react-icons": "^4.9.0",
     "storybook": "^7.0.20"
   }
 }

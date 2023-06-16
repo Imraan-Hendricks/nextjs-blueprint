@@ -3,6 +3,10 @@ import { cleanup, render, screen } from '@testing-library/react';
 import { NavItem } from './NavItem';
 
 describe('NavItem Component Tests', () => {
+  beforeAll(() => {
+    cleanup();
+  });
+
   afterEach(() => {
     cleanup();
   });
