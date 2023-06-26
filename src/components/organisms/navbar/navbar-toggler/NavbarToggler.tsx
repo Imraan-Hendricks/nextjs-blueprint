@@ -13,8 +13,8 @@ export function NavbarToggler({ isOpen, onClick }: NavbarTogglerProps) {
       role='navbar-toggler'
       className={clsx(
         'group w-max cursor-pointer rounded border p-1.5',
-        'border-neutral-200 hover:bg-neutral-200 active:bg-transparent',
-        'dark:border-neutral-700 dark:hover:bg-neutral-700 dark:active:bg-transparent',
+        'border-gray-200 hover:bg-gray-200 active:bg-transparent',
+        'dark:border-gray-700 dark:hover:bg-gray-700 dark:active:bg-transparent',
       )}
       onClick={onClick}>
       {isOpen && <IconWrapper Icon={HiX} testId='close-icon' />}
@@ -34,8 +34,8 @@ function IconWrapper({ Icon, testId }: IconWrapper) {
       data-testid={testId}
       className={clsx(
         'h-6 w-auto',
-        'text-neutral-500 group-hover:text-neutral-800 group-active:text-neutral-500',
-        'dark:text-neutral-400 group-hover:dark:text-neutral-100 group-active:dark:text-neutral-400',
+        'text-gray-500 group-hover:text-gray-800 group-active:text-gray-500',
+        'dark:text-gray-400 group-hover:dark:text-gray-100 group-active:dark:text-gray-400',
       )}
     />
   );

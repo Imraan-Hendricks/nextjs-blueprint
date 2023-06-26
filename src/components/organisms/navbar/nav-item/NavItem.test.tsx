@@ -30,24 +30,24 @@ describe('NavItem Component Tests', () => {
       </NavItem>,
     );
 
-    const listItem = screen.getByText('My Link').parentElement;
-    expect(listItem).toHaveClass('text-indigo-600');
+    const linkElement = screen.getByText('My Link');
+    expect(linkElement).toHaveClass('text-indigo-600');
   });
 
   test('applies hover styles on mouseover', () => {
     render(<NavItem href='/some-link'>My Link</NavItem>);
 
-    const listItem = screen.getByText('My Link').parentElement;
-    userEvent.hover(listItem!);
-    expect(listItem).toHaveClass('hover:bg-indigo-500');
-    expect(listItem).toHaveClass('hover:text-white');
+    const linkElement = screen.getByText('My Link');
+    userEvent.hover(linkElement!);
+    expect(linkElement).toHaveClass('hover:bg-indigo-500');
+    expect(linkElement).toHaveClass('hover:text-white');
   });
 
   test('applies active styles on click', () => {
     render(<NavItem href='/some-link'>My Link</NavItem>);
 
-    const listItem = screen.getByText('My Link').parentElement;
-    userEvent.click(listItem!);
-    expect(listItem).toHaveClass('active:bg-indigo-400');
+    const linkElement = screen.getByText('My Link');
+    userEvent.click(linkElement!);
+    expect(linkElement).toHaveClass('active:bg-indigo-400');
   });
 });

@@ -2,10 +2,9 @@
 
 exports[`NavItem Snapshot Tests renders correctly with active prop 1`] = `
 <div>
-  <li
-    class="w-max cursor-pointer rounded px-4 py-2 transition-colors hover:bg-indigo-500 hover:text-white active:bg-indigo-400 text-indigo-600"
-  >
+  <li>
     <a
+      class="w-max cursor-pointer rounded px-4 py-2 transition-colors hover:bg-indigo-500 hover:text-white active:bg-indigo-400 text-indigo-600"
       href="/some-link"
     >
       My Link
@@ -16,10 +15,9 @@ exports[`NavItem Snapshot Tests renders correctly with active prop 1`] = `
 
 exports[`NavItem Snapshot Tests renders correctly without active prop 1`] = `
 <div>
-  <li
-    class="w-max cursor-pointer rounded px-4 py-2 transition-colors hover:bg-indigo-500 hover:text-white active:bg-indigo-400 text-gray-500"
-  >
+  <li>
     <a
+      class="w-max cursor-pointer rounded px-4 py-2 transition-colors hover:bg-indigo-500 hover:text-white active:bg-indigo-400 text-gray-500"
       href="/some-link"
     >
       My Link

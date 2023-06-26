@@ -3,12 +3,12 @@
 exports[`NavbarToggler renders with close icon when isOpen is true 1`] = `
 <div>
   <div
-    class="group w-max cursor-pointer rounded border p-1.5 border-neutral-200 hover:bg-neutral-200 active:bg-transparent dark:border-neutral-700 dark:hover:bg-neutral-700 dark:active:bg-transparent"
+    class="group w-max cursor-pointer rounded border p-1.5 border-gray-200 hover:bg-gray-200 active:bg-transparent dark:border-gray-700 dark:hover:bg-gray-700 dark:active:bg-transparent"
     role="navbar-toggler"
   >
     <svg
       aria-hidden="true"
-      class="h-6 w-auto text-neutral-500 group-hover:text-neutral-800 group-active:text-neutral-500 dark:text-neutral-400 group-hover:dark:text-neutral-100 group-active:dark:text-neutral-400"
+      class="h-6 w-auto text-gray-500 group-hover:text-gray-800 group-active:text-gray-500 dark:text-gray-400 group-hover:dark:text-gray-100 group-active:dark:text-gray-400"
       data-testid="close-icon"
       fill="currentColor"
       height="1em"
@@ -31,12 +31,12 @@ exports[`NavbarToggler renders with close icon when isOpen is true 1`] = `
 exports[`NavbarToggler renders with menu icon when isOpen is false 1`] = `
 <div>
   <div
-    class="group w-max cursor-pointer rounded border p-1.5 border-neutral-200 hover:bg-neutral-200 active:bg-transparent dark:border-neutral-700 dark:hover:bg-neutral-700 dark:active:bg-transparent"
+    class="group w-max cursor-pointer rounded border p-1.5 border-gray-200 hover:bg-gray-200 active:bg-transparent dark:border-gray-700 dark:hover:bg-gray-700 dark:active:bg-transparent"
     role="navbar-toggler"
   >
     <svg
       aria-hidden="true"
-      class="h-6 w-auto text-neutral-500 group-hover:text-neutral-800 group-active:text-neutral-500 dark:text-neutral-400 group-hover:dark:text-neutral-100 group-active:dark:text-neutral-400"
+      class="h-6 w-auto text-gray-500 group-hover:text-gray-800 group-active:text-gray-500 dark:text-gray-400 group-hover:dark:text-gray-100 group-active:dark:text-gray-400"
       data-testid="menu-icon"
       fill="none"
       height="1em"
