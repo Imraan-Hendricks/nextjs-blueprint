@@ -12,6 +12,14 @@ const preview: Preview = {
         date: /Date$/,
       },
     },
+    backgrounds: {
+      values: [
+        { name: 'white', value: '#ffffff' },
+        { name: 'light', value: '#f9fafb' },
+        { name: 'dark', value: '#030712' },
+        { name: 'black', value: '#000000' },
+      ],
+    },
     viewport: { viewports },
   },
 };

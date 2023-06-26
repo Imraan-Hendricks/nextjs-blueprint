@@ -68,7 +68,7 @@ To set up the required environment variables:
 1&nbsp;) Clone this repository:
 
 ```shell
-git clone https://github.com/your-username/nextjs-blueprint.git
+git clone https://github.com/Imraan-Hendricks/nextjs-blueprint.git
 ```
 
 2&nbsp;) Navigate to the project directory:
